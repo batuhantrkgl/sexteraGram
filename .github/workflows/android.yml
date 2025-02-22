@@ -46,7 +46,7 @@ jobs:
       run: ./gradlew :TMessagesProj:assembleArmv7Debug
 
     - name: Upload Debug APKs
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: apks
         path: |
