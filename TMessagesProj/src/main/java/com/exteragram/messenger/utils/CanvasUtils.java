@@ -9,7 +9,7 @@
 
 */
 
-package com.exteragram.messenger.utils;
+package com.sexteragram.messenger.utils;
 
 import android.content.Context;
 import android.graphics.Paint;
@@ -20,7 +20,7 @@ import android.graphics.drawable.shapes.RoundRectShape;
 
 import androidx.core.content.ContextCompat;
 
-import com.exteragram.messenger.ExteraConfig;
+import com.sexteragram.messenger.ExteraConfig;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ApplicationLoader;

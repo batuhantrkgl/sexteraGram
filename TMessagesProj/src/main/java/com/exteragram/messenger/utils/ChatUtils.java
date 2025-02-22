@@ -9,7 +9,7 @@
 
 */
 
-package com.exteragram.messenger.utils;
+package com.sexteragram.messenger.utils;
 
 import android.text.SpannableStringBuilder;
 import android.text.TextUtils;

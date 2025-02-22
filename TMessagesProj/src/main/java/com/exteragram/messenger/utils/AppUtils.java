@@ -9,7 +9,7 @@
 
 */
 
-package com.exteragram.messenger.utils;
+package com.sexteragram.messenger.utils;
 
 import android.annotation.SuppressLint;
 import android.content.pm.PackageInfo;
@@ -84,7 +84,7 @@ public class AppUtils {
 
     // do not change or remove this part of the code if you're making public fork
     private static final String EXPECTED_SIGNATURE = "tcaLgrODWBN9GQvrHPfGzA==";
-    private static final String EXPECTED_PACKAGE_NAME = "com.exteragram.messenger";
+    private static final String EXPECTED_PACKAGE_NAME = "com.sexteragram.messenger";
 
     public static boolean isAppModified() {
         try {

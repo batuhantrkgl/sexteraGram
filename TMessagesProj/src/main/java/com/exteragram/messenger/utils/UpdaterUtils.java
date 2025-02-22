@@ -9,7 +9,7 @@
 
 */
 
-package com.exteragram.messenger.utils;
+package com.sexteragram.messenger.utils;
 
 import android.annotation.SuppressLint;
 import android.app.DownloadManager;
@@ -25,8 +25,8 @@ import android.text.Spanned;
 
 import androidx.core.content.FileProvider;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.preferences.updater.UpdaterBottomSheet;
+import com.sexteragram.messenger.ExteraConfig;
+import com.sexteragram.messenger.preferences.updater.UpdaterBottomSheet;
 
 import org.json.JSONObject;
 import org.telegram.messenger.AndroidUtilities;

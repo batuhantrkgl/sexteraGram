@@ -136,8 +136,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Objects;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.utils.CanvasUtils;
+import com.sexteragram.messenger.ExteraConfig;
+import com.sexteragram.messenger.utils.CanvasUtils;
 
 public class EmojiView extends FrameLayout implements NotificationCenter.NotificationCenterDelegate {
 

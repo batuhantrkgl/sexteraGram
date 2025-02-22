@@ -31,8 +31,8 @@ import android.util.Log;
 
 import androidx.collection.LongSparseArray;
 
-import com.exteragram.messenger.boost.encryption.BaseEncryptor;
-import com.exteragram.messenger.boost.filter.ZalgoFilter;
+import com.sexteragram.messenger.boost.encryption.BaseEncryptor;
+import com.sexteragram.messenger.boost.filter.ZalgoFilter;
 
 import org.telegram.PhoneFormat.PhoneFormat;
 import org.telegram.messenger.browser.Browser;

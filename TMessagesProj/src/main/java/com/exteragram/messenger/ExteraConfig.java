@@ -9,17 +9,17 @@
 
 */
 
-package com.exteragram.messenger;
+package com.sexteragram.messenger;
 
 import android.app.Activity;
 import android.content.SharedPreferences;
 
 import androidx.annotation.NonNull;
 
-import com.exteragram.messenger.camera.CameraXUtils;
-import com.exteragram.messenger.icons.BaseIconSet;
-import com.exteragram.messenger.icons.EmptyIconSet;
-import com.exteragram.messenger.icons.SolarIconSet;
+import com.sexteragram.messenger.camera.CameraXUtils;
+import com.sexteragram.messenger.icons.BaseIconSet;
+import com.sexteragram.messenger.icons.EmptyIconSet;
+import com.sexteragram.messenger.icons.SolarIconSet;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.ApplicationLoader;

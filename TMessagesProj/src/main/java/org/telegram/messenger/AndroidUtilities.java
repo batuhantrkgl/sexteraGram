@@ -116,8 +116,8 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.ViewPager;
 
 import com.android.internal.telephony.ITelephony;
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.utils.FontUtils;
+import com.sexteragram.messenger.ExteraConfig;
+import com.sexteragram.messenger.utils.FontUtils;
 import com.google.android.exoplayer2.util.Consumer;
 import com.google.android.gms.auth.api.phone.SmsRetriever;
 import com.google.android.gms.auth.api.phone.SmsRetrieverClient;

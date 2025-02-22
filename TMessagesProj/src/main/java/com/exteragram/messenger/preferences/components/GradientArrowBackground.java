@@ -9,7 +9,7 @@
 
 */
 
-package com.exteragram.messenger.preferences.components;
+package com.sexteragram.messenger.preferences.components;
 
 import android.content.Context;
 import android.graphics.Canvas;

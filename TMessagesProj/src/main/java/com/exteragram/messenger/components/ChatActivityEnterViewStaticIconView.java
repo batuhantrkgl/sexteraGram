@@ -9,7 +9,7 @@
 
 */
 
-package com.exteragram.messenger.components;
+package com.sexteragram.messenger.components;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

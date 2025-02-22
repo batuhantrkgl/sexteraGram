@@ -27,7 +27,7 @@ import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.LayoutHelper;
 import org.telegram.ui.Components.Switch;
 
-import com.exteragram.messenger.ExteraConfig;
+import com.sexteragram.messenger.ExteraConfig;
 
 public class NotificationsCheckCell extends FrameLayout {
 

@@ -9,7 +9,7 @@
 
 */
 
-package com.exteragram.messenger.preferences.components;
+package com.sexteragram.messenger.preferences.components;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -31,8 +31,8 @@ import android.widget.FrameLayout;
 import androidx.core.content.ContextCompat;
 import androidx.core.graphics.ColorUtils;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.utils.LocaleUtils;
+import com.sexteragram.messenger.ExteraConfig;
+import com.sexteragram.messenger.utils.LocaleUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;

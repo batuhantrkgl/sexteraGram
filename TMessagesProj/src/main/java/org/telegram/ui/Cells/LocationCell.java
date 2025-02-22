@@ -32,7 +32,7 @@ import org.telegram.ui.Components.BackupImageView;
 import org.telegram.ui.Components.FlickerLoadingView;
 import org.telegram.ui.Components.LayoutHelper;
 
-import com.exteragram.messenger.ExteraConfig;
+import com.sexteragram.messenger.ExteraConfig;
 
 public class LocationCell extends FrameLayout {
 

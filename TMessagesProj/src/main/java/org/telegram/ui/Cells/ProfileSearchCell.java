@@ -49,7 +49,7 @@ import org.telegram.ui.NotificationsSettingsActivity;
 
 import java.util.Locale;
 
-import com.exteragram.messenger.ExteraConfig;
+import com.sexteragram.messenger.ExteraConfig;
 
 public class ProfileSearchCell extends BaseCell implements NotificationCenter.NotificationCenterDelegate {
 

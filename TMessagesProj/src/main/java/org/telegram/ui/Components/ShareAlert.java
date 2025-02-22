@@ -113,10 +113,10 @@ import java.util.Locale;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicReference;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.components.TranslateBeforeSendWrapper;
-import com.exteragram.messenger.utils.CanvasUtils;
-import com.exteragram.messenger.utils.TranslatorUtils;
+import com.sexteragram.messenger.ExteraConfig;
+import com.sexteragram.messenger.components.TranslateBeforeSendWrapper;
+import com.sexteragram.messenger.utils.CanvasUtils;
+import com.sexteragram.messenger.utils.TranslatorUtils;
 
 public class ShareAlert extends BottomSheet implements NotificationCenter.NotificationCenterDelegate {
 

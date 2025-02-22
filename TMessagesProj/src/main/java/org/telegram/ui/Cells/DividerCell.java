@@ -19,7 +19,7 @@ import androidx.core.graphics.ColorUtils;
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.ui.ActionBar.Theme;
 
-import com.exteragram.messenger.ExteraConfig;
+import com.sexteragram.messenger.ExteraConfig;
 
 public class DividerCell extends View {
 

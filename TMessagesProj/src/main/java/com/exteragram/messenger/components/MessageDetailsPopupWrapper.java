@@ -9,7 +9,7 @@
 
 */
 
-package com.exteragram.messenger.components;
+package com.sexteragram.messenger.components;
 
 import android.content.Intent;
 import android.graphics.BitmapFactory;
@@ -21,7 +21,7 @@ import android.widget.FrameLayout;
 
 import androidx.core.content.FileProvider;
 
-import com.exteragram.messenger.utils.ChatUtils;
+import com.sexteragram.messenger.utils.ChatUtils;
 import com.google.zxing.Dimension;
 
 import org.telegram.messenger.AndroidUtilities;

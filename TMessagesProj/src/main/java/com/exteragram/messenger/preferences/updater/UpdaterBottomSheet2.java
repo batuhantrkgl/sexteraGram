@@ -1,4 +1,4 @@
-package com.exteragram.messenger.preferences.updater;
+package com.sexteragram.messenger.preferences.updater;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
@@ -21,10 +21,10 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.utils.LocaleUtils;
-import com.exteragram.messenger.utils.TranslatorUtils;
-import com.exteragram.messenger.utils.UpdaterUtils;
+import com.sexteragram.messenger.ExteraConfig;
+import com.sexteragram.messenger.utils.LocaleUtils;
+import com.sexteragram.messenger.utils.TranslatorUtils;
+import com.sexteragram.messenger.utils.UpdaterUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.BuildVars;

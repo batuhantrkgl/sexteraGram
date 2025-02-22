@@ -9,7 +9,7 @@
 
 */
 
-package com.exteragram.messenger.preferences;
+package com.sexteragram.messenger.preferences;
 
 import android.content.Context;
 import android.os.Parcelable;
@@ -19,17 +19,17 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.preferences.components.AvatarCornersPreviewCell;
-import com.exteragram.messenger.preferences.components.ChatListPreviewCell;
-import com.exteragram.messenger.preferences.components.FabShapeCell;
-import com.exteragram.messenger.preferences.components.FoldersPreviewCell;
-import com.exteragram.messenger.preferences.components.SolarIconsPreview;
-import com.exteragram.messenger.utils.AppUtils;
-import com.exteragram.messenger.utils.ChatUtils;
-import com.exteragram.messenger.utils.LocaleUtils;
-import com.exteragram.messenger.utils.PopupUtils;
-import com.exteragram.messenger.utils.SystemUtils;
+import com.sexteragram.messenger.ExteraConfig;
+import com.sexteragram.messenger.preferences.components.AvatarCornersPreviewCell;
+import com.sexteragram.messenger.preferences.components.ChatListPreviewCell;
+import com.sexteragram.messenger.preferences.components.FabShapeCell;
+import com.sexteragram.messenger.preferences.components.FoldersPreviewCell;
+import com.sexteragram.messenger.preferences.components.SolarIconsPreview;
+import com.sexteragram.messenger.utils.AppUtils;
+import com.sexteragram.messenger.utils.ChatUtils;
+import com.sexteragram.messenger.utils.LocaleUtils;
+import com.sexteragram.messenger.utils.PopupUtils;
+import com.sexteragram.messenger.utils.SystemUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;

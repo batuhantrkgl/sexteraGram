@@ -1,4 +1,4 @@
-package com.exteragram.messenger.camera;
+package com.sexteragram.messenger.camera;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;

@@ -82,11 +82,11 @@ import androidx.recyclerview.widget.LinearSmoothScrollerCustom;
 import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.ViewPager;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.components.TranslateBeforeSendWrapper;
-import com.exteragram.messenger.utils.CanvasUtils;
-import com.exteragram.messenger.utils.LocaleUtils;
-import com.exteragram.messenger.utils.TranslatorUtils;
+import com.sexteragram.messenger.ExteraConfig;
+import com.sexteragram.messenger.components.TranslateBeforeSendWrapper;
+import com.sexteragram.messenger.utils.CanvasUtils;
+import com.sexteragram.messenger.utils.LocaleUtils;
+import com.sexteragram.messenger.utils.TranslatorUtils;
 
 import org.telegram.messenger.AccountInstance;
 import org.telegram.messenger.AndroidUtilities;

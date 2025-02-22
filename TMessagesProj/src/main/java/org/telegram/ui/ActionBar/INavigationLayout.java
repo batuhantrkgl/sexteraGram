@@ -14,7 +14,7 @@ import android.widget.FrameLayout;
 
 import androidx.core.util.Supplier;
 
-import com.exteragram.messenger.ExteraConfig;
+import com.sexteragram.messenger.ExteraConfig;
 
 import org.telegram.ui.Components.BackButtonMenu;
 import org.telegram.ui.LNavigation.LNavigation;

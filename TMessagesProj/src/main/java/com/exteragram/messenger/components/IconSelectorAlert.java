@@ -9,7 +9,7 @@
 
 */
 
-package com.exteragram.messenger.components;
+package com.sexteragram.messenger.components;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
@@ -27,7 +27,7 @@ import android.widget.GridLayout;
 
 import androidx.core.content.ContextCompat;
 
-import com.exteragram.messenger.utils.FolderIcons;
+import com.sexteragram.messenger.utils.FolderIcons;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.R;

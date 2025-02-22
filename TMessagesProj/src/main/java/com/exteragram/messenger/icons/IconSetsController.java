@@ -9,7 +9,7 @@
 
 */
 
-package com.exteragram.messenger.icons;
+package com.sexteragram.messenger.icons;
 
 import android.util.SparseIntArray;
 

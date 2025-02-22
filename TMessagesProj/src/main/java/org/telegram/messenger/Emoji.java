@@ -28,8 +28,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.exteragram.messenger.boost.filter.ZalgoFilter;
-import com.exteragram.messenger.utils.FontUtils;
+import com.sexteragram.messenger.boost.filter.ZalgoFilter;
+import com.sexteragram.messenger.utils.FontUtils;
 
 import org.telegram.ui.Components.AnimatedEmojiSpan;
 

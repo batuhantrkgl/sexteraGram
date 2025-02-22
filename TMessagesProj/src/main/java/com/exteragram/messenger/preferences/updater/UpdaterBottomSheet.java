@@ -9,7 +9,7 @@
 
 */
 
-package com.exteragram.messenger.preferences.updater;
+package com.sexteragram.messenger.preferences.updater;
 
 import android.content.Context;
 import android.graphics.Canvas;
@@ -23,9 +23,9 @@ import android.widget.LinearLayout;
 import android.widget.ScrollView;
 import android.widget.TextView;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.utils.LocaleUtils;
-import com.exteragram.messenger.utils.UpdaterUtils;
+import com.sexteragram.messenger.ExteraConfig;
+import com.sexteragram.messenger.utils.LocaleUtils;
+import com.sexteragram.messenger.utils.UpdaterUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.BuildVars;

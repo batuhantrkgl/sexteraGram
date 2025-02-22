@@ -9,7 +9,7 @@
 
 */
 
-package com.exteragram.messenger.preferences.components;
+package com.sexteragram.messenger.preferences.components;
 
 import android.content.Context;
 import android.graphics.PorterDuff;
@@ -24,7 +24,7 @@ import android.widget.TextView;
 
 import androidx.core.content.ContextCompat;
 
-import com.exteragram.messenger.utils.MonetUtils;
+import com.sexteragram.messenger.utils.MonetUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.BuildVars;

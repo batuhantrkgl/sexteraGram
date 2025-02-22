@@ -9,7 +9,7 @@
 
 */
 
-package com.exteragram.messenger.utils;
+package com.sexteragram.messenger.utils;
 
 import android.text.Spannable;
 import android.text.SpannableString;
@@ -18,7 +18,7 @@ import android.text.TextUtils;
 import android.text.style.URLSpan;
 import android.view.View;
 
-import com.exteragram.messenger.ExteraConfig;
+import com.sexteragram.messenger.ExteraConfig;
 
 import org.telegram.messenger.ApplicationLoader;
 import org.telegram.messenger.FileLog;

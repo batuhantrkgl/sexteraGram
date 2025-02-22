@@ -9,7 +9,7 @@
 
 */
 
-package com.exteragram.messenger.icons;
+package com.sexteragram.messenger.icons;
 
 public class SolarIconSet extends BaseIconSet {
     public SolarIconSet() {

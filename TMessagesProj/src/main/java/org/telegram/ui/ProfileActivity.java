@@ -96,12 +96,12 @@ import androidx.recyclerview.widget.RecyclerView;
 import androidx.viewpager.widget.PagerAdapter;
 import androidx.viewpager.widget.ViewPager;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.preferences.MainPreferencesActivity;
-import com.exteragram.messenger.utils.AppUtils;
-import com.exteragram.messenger.utils.CanvasUtils;
-import com.exteragram.messenger.utils.ChatUtils;
-import com.exteragram.messenger.utils.LocaleUtils;
+import com.sexteragram.messenger.ExteraConfig;
+import com.sexteragram.messenger.preferences.MainPreferencesActivity;
+import com.sexteragram.messenger.utils.AppUtils;
+import com.sexteragram.messenger.utils.CanvasUtils;
+import com.sexteragram.messenger.utils.ChatUtils;
+import com.sexteragram.messenger.utils.LocaleUtils;
 
 import org.telegram.PhoneFormat.PhoneFormat;
 import org.telegram.messenger.AccountInstance;
@@ -1774,6 +1774,12 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
         actionBar.setActionBarMenuOnItemClick(new ActionBar.ActionBarMenuOnItemClick() {
             @Override
             public void onItemClick(final int id) {
+                if (id == exportChatRow) {
+                    Bundle args = new Bundle();
+                    args.putLong("dialog_id", dialogId);
+                    presentFragment(new ChatExportActivity(args));
+                    return;
+                }
                 if (getParentActivity() == null) {
                     return;
                 }
@@ -7016,6 +7022,7 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
         int prevRowsCount = rowCount;
         rowCount = 0;
 
+        exportChatRow = -1;
         setAvatarRow = -1;
         setAvatarSectionRow = -1;
         numberSectionRow = -1;
@@ -8701,6 +8708,8 @@ public class ProfileActivity extends BaseFragment implements NotificationCenter.
             imageUpdater.onActivityResult(requestCode, resultCode, data);
         }
     }
+
+    private int exportChatRow = -1;
 
     @Override
     public void saveSelfArgs(Bundle args) {

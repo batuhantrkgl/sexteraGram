@@ -9,13 +9,13 @@
 
 */
 
-package com.exteragram.messenger.components;
+package com.sexteragram.messenger.components;
 
 import android.annotation.SuppressLint;
 import android.content.Context;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.utils.PopupUtils;
+import com.sexteragram.messenger.ExteraConfig;
+import com.sexteragram.messenger.utils.PopupUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.LocaleController;

@@ -84,12 +84,12 @@ import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.ExteraResources;
-import com.exteragram.messenger.utils.ChatUtils;
-import com.exteragram.messenger.utils.MonetUtils;
-import com.exteragram.messenger.preferences.MainPreferencesActivity;
-import com.exteragram.messenger.utils.UpdaterUtils;
+import com.sexteragram.messenger.ExteraConfig;
+import com.sexteragram.messenger.ExteraResources;
+import com.sexteragram.messenger.utils.ChatUtils;
+import com.sexteragram.messenger.utils.MonetUtils;
+import com.sexteragram.messenger.preferences.MainPreferencesActivity;
+import com.sexteragram.messenger.utils.UpdaterUtils;
 import com.google.android.gms.common.api.Status;
 import com.google.firebase.appindexing.Action;
 import com.google.firebase.appindexing.FirebaseUserActions;

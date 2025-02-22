@@ -59,15 +59,15 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.LinearSmoothScroller;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.exteragram.messenger.ExteraConfig;
-import com.exteragram.messenger.camera.BaseCameraView;
-import com.exteragram.messenger.camera.CameraXController;
-import com.exteragram.messenger.camera.CameraXUtils;
-import com.exteragram.messenger.camera.CameraXView;
-import com.exteragram.messenger.camera.EffectSelector;
-import com.exteragram.messenger.camera.LockAnimationView;
-import com.exteragram.messenger.camera.SlideControlView;
-import com.exteragram.messenger.utils.SystemUtils;
+import com.sexteragram.messenger.ExteraConfig;
+import com.sexteragram.messenger.camera.BaseCameraView;
+import com.sexteragram.messenger.camera.CameraXController;
+import com.sexteragram.messenger.camera.CameraXUtils;
+import com.sexteragram.messenger.camera.CameraXView;
+import com.sexteragram.messenger.camera.EffectSelector;
+import com.sexteragram.messenger.camera.LockAnimationView;
+import com.sexteragram.messenger.camera.SlideControlView;
+import com.sexteragram.messenger.utils.SystemUtils;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.AnimationNotificationsLocker;

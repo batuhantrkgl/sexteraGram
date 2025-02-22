@@ -9,7 +9,7 @@
 
 */
 
-package com.exteragram.messenger.preferences;
+package com.sexteragram.messenger.preferences;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -25,8 +25,8 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.exteragram.messenger.preferences.components.HeaderSettingsCell;
-import com.exteragram.messenger.preferences.updater.UpdaterBottomSheet;
+import com.sexteragram.messenger.preferences.components.HeaderSettingsCell;
+import com.sexteragram.messenger.preferences.updater.UpdaterBottomSheet;
 
 import org.telegram.messenger.AndroidUtilities;
 import org.telegram.messenger.BuildVars;

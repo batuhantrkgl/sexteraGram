@@ -77,7 +77,7 @@ import org.telegram.ui.Components.RLottieImageView;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import com.exteragram.messenger.ExteraConfig;
+import com.sexteragram.messenger.ExteraConfig;
 
 public class ActionBarMenuItem extends FrameLayout {
 

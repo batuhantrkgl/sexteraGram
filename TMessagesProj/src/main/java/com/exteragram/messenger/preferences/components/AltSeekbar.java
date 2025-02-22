@@ -9,7 +9,7 @@
 
 */
 
-package com.exteragram.messenger.preferences.components;
+package com.sexteragram.messenger.preferences.components;
 
 import static org.telegram.messenger.AndroidUtilities.dp;
 
