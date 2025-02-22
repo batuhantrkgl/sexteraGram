@@ -9,6 +9,11 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    env:
+      APP_VERSION_CODE: 3500
+      APP_VERSION_NAME: "10.1.0"
+      APP_PACKAGE: "com.sexteragram.messenger"
+      
     steps:
     - uses: actions/checkout@v3
 
@@ -39,14 +44,11 @@ jobs:
         echo "SIGNING_KEY_ALIAS=\"dummy\"" >> API_KEYS
         echo "SIGNING_KEY_PASSWORD=\"dummy\"" >> API_KEYS
 
-    - name: Build Debug APKs
-      run: |
-        ./gradlew tasks
-        ./gradlew :TMessagesProj:assembleDebug --stacktrace
+    - name: Build ARM64 Debug APK
+      run: ./gradlew :TMessagesProj:assembleArm64Debug
 
     - name: Upload Debug APKs
       uses: actions/upload-artifact@v4
       with:
         name: apks
-        path: |
-          TMessagesProj/build/outputs/apk/**/debug/*.apk
+        path: TMessagesProj/build/outputs/apk/arm64/debug/*.apk
