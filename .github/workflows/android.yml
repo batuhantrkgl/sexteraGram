@@ -39,16 +39,14 @@ jobs:
         echo "SIGNING_KEY_ALIAS=\"dummy\"" >> API_KEYS
         echo "SIGNING_KEY_PASSWORD=\"dummy\"" >> API_KEYS
 
-    - name: Build arm64 Debug APK
-      run: ./gradlew :TMessagesProj:assembleArm64Debug
-
-    - name: Build armv7 Debug APK
-      run: ./gradlew :TMessagesProj:assembleArmv7Debug
+    - name: Build Debug APKs
+      run: |
+        ./gradlew tasks
+        ./gradlew :TMessagesProj:assembleDebug --stacktrace
 
     - name: Upload Debug APKs
       uses: actions/upload-artifact@v4
       with:
         name: apks
         path: |
-          TMessagesProj/build/outputs/apk/arm64/debug/*.apk
-          TMessagesProj/build/outputs/apk/armv7/debug/*.apk
+          TMessagesProj/build/outputs/apk/**/debug/*.apk
