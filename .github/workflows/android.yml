@@ -44,11 +44,11 @@ jobs:
         echo "SIGNING_KEY_ALIAS=\"dummy\"" >> API_KEYS
         echo "SIGNING_KEY_PASSWORD=\"dummy\"" >> API_KEYS
 
-    - name: Build ARM64 Debug APK
-      run: ./gradlew :TMessagesProj:assembleArm64Debug
+    - name: Build ARM64 Release APK
+      run: ./gradlew assembleArm64Release
 
-    - name: Upload Debug APKs
+    - name: Upload Release APKs
       uses: actions/upload-artifact@v4
       with:
         name: apks
-        path: TMessagesProj/build/outputs/apk/arm64/debug/*.apk
+        path: TMessagesProj/build/outputs/apk/arm64/release/*.apk
