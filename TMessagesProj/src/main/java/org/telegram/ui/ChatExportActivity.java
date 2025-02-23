@@ -22,6 +22,7 @@ import org.telegram.ui.ActionBar.Theme;
 import org.telegram.ui.Components.BulletinFactory;
 import org.telegram.ui.Components.LayoutHelper;
 import org.telegram.ui.Components.RecyclerListView;
+import android.view.ViewGroup; // Add this import
 
 public class ChatExportActivity extends BaseFragment {
     private final long dialogId;
@@ -119,14 +120,18 @@ public class ChatExportActivity extends BaseFragment {
                 // Add your export implementation
                 getParentActivity().runOnUiThread(() -> {
                     progressDialog.dismiss();
-                    BulletinFactory.createSuccessBulletin(getParentActivity(),
-                        LocaleController.getString("ExportSuccess", R.string.ExportSuccess)).show();
+                    BulletinFactory.createSuccessBulletin(
+                        fragmentView, // Change from getParentActivity() to fragmentView
+                        LocaleController.getString("ExportSuccess", R.string.ExportSuccess)
+                    ).show();
                 });
             } catch (Exception e) {
                 getParentActivity().runOnUiThread(() -> {
                     progressDialog.dismiss();
-                    BulletinFactory.createErrorBulletin(getParentActivity(),
-                        LocaleController.getString("ExportFailed", R.string.ExportFailed)).show();
+                    BulletinFactory.createErrorBulletin(
+                        fragmentView, // Change from getParentActivity() to fragmentView
+                        LocaleController.getString("ExportFailed", R.string.ExportFailed)
+                    ).show();
                 });
             }
         }).start();
