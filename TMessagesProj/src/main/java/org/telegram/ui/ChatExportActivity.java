@@ -1,3 +1,25 @@
+package org.telegram.ui;
+
+import android.content.Context;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.FrameLayout;
+
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
+import org.telegram.messenger.LocaleController;
+import org.telegram.messenger.MessagesController;
+import org.telegram.messenger.NotificationCenter;
+import org.telegram.messenger.R;
+import org.telegram.tgnet.TLRPC;
+import org.telegram.ui.ActionBar.AlertDialog;
+import org.telegram.ui.ActionBar.BaseFragment;
+import org.telegram.ui.ActionBar.Theme;
+import org.telegram.ui.Components.BulletinFactory;
+import org.telegram.ui.Components.LayoutHelper;
+import org.telegram.ui.Components.RecyclerListView;
+
 public class ChatExportActivity extends BaseFragment {
     private final long dialogId;
     private TLRPC.Chat currentChat;
@@ -25,6 +47,7 @@ public class ChatExportActivity extends BaseFragment {
 
     @Override
     public boolean onFragmentCreate() {
+        super.onFragmentCreate();
         if (dialogId != 0) {
             if (DialogObject.isUserDialog(dialogId)) {
                 currentUser = MessagesController.getInstance(currentAccount).getUser(dialogId);
@@ -32,7 +55,7 @@ public class ChatExportActivity extends BaseFragment {
                 currentChat = MessagesController.getInstance(currentAccount).getChat(-dialogId);
             }
         }
-        return super.onFragmentCreate();
+        return true;
     }
 
     @Override
@@ -47,7 +70,7 @@ public class ChatExportActivity extends BaseFragment {
         listView = new RecyclerListView(context);
         listView.setAdapter(listAdapter);
         listView.setLayoutManager(new LinearLayoutManager(context, LinearLayoutManager.VERTICAL, false));
-        frameLayout.addView(listView);
+        frameLayout.addView(listView, LayoutHelper.createFrame(LayoutHelper.MATCH_PARENT, LayoutHelper.MATCH_PARENT));
 
         return fragmentView;
     }
