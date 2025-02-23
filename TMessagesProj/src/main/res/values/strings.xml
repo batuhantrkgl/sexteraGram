@@ -6602,4 +6602,8 @@
     <string name="BotWebAppInstantViewOpen">Open App</string>
     <string name="RestorePremiumHintTitle">Get Premium back with up to **%1$d%%** off</string>
     <string name="RestorePremiumHintMessage">Your Telegram Premium has recently expired. Tap here to extend it.</string>
+    <string name="ExportChat">Export Chat</string>
+    <string name="ExportingChat">Exporting chat...</string>
+    <string name="ExportSuccess">Chat exported successfully</string>
+    <string name="ExportFailed">Failed to export chat</string>
 </resources>
